@@ -229,6 +229,16 @@ class ReportGenerator:
             return '🤖 OpenAI API Key'
         elif secret.startswith('AIza'):
             return '🔍 Google AI API Key (Gemini)'
+        elif secret.startswith('LTAI'):
+            return '☁️ 阿里云 AccessKey ID'
+        elif 'deepseek' in secret.lower():
+            return '🧠 DeepSeek API Key'
+        elif 'dashscope' in secret.lower() or 'qwen' in secret.lower():
+            return '☁️ 阿里云百炼/通义千问 API Key'
+        elif 'zhipu' in secret.lower() or 'glm' in secret.lower():
+            return '🔮 智谱 AI (GLM) API Key'
+        elif 'minimax' in secret.lower():
+            return '🎯 MiniMax API Key'
         elif 'openai' in secret.lower():
             return '🤖 OpenAI 相关密钥'
         elif 'anthropic' in secret.lower() or 'claude' in secret.lower():
@@ -299,6 +309,41 @@ class ReportGenerator:
         # 通用模式
         elif 'api_key' in pattern.lower():
             return '📌 通用 api_key 变量赋值'
+        
+        # ===== 中国 AI 服务 =====
+        # DeepSeek
+        elif 'DEEPSEEK_API_KEY' in pattern:
+            return '📌 DeepSeek API Key 环境变量赋值'
+        elif 'deepseekApiKey' in pattern or 'DeepseekApiKey' in pattern:
+            return '📌 deepseekApiKey 对象属性/变量赋值'
+        
+        # 阿里云百炼 / 通义千问
+        elif 'DASHSCOPE_API_KEY' in pattern:
+            return '📌 阿里云百炼 DASHSCOPE_API_KEY 环境变量赋值'
+        elif 'ALIBABA_API_KEY' in pattern:
+            return '📌 阿里云 ALIBABA_API_KEY 环境变量赋值'
+        elif 'QWEN_API_KEY' in pattern:
+            return '📌 通义千问 QWEN_API_KEY 环境变量赋值'
+        elif 'dashscopeApiKey' in pattern or 'DashscopeApiKey' in pattern:
+            return '📌 dashscopeApiKey 对象属性/变量赋值'
+        elif 'LTAI' in pattern:
+            return '📌 阿里云 AccessKey ID 格式 (LTAI...)'
+        
+        # 智谱 AI
+        elif 'ZHIPU_API_KEY' in pattern or 'ZHIPUAI_API_KEY' in pattern:
+            return '📌 智谱 AI ZHIPU_API_KEY 环境变量赋值'
+        elif 'GLM_API_KEY' in pattern:
+            return '📌 智谱 GLM_API_KEY 环境变量赋值'
+        elif 'zhipuApiKey' in pattern or 'ZhipuApiKey' in pattern:
+            return '📌 zhipuApiKey 对象属性/变量赋值'
+        
+        # MiniMax
+        elif 'MINIMAX_API_KEY' in pattern:
+            return '📌 MiniMax API Key 环境变量赋值'
+        elif 'MINIMAX_GROUP_ID' in pattern:
+            return '📌 MiniMax Group ID 环境变量赋值'
+        elif 'minimaxApiKey' in pattern or 'MinimaxApiKey' in pattern:
+            return '📌 minimaxApiKey 对象属性/变量赋值'
         
         # 默认
         else:

@@ -90,6 +90,44 @@ SENSITIVE_PATTERNS = [
     # Azure OpenAI
     r'AZURE_OPENAI_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
     r'AZURE_OPENAI_API_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    
+    # ===== 中国 AI 服务 =====
+    # DeepSeek
+    r'DEEPSEEK_API_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'deepseek_api_key[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'deepseekApiKey[\s]*[:=][\s]*["\']([a-zA-Z0-9_-]{20,})["\']',
+    r'DeepseekApiKey[\s]*[:=][\s]*["\']([a-zA-Z0-9_-]{20,})["\']',
+    
+    # 阿里云百炼 / 通义千问 (Qwen)
+    r'DASHSCOPE_API_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'dashscope_api_key[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'ALIBABA_API_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'aliyun_api_key[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'QWEN_API_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'qwen_api_key[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'dashscopeApiKey[\s]*[:=][\s]*["\']([a-zA-Z0-9_-]{20,})["\']',
+    r'DashscopeApiKey[\s]*[:=][\s]*["\']([a-zA-Z0-9_-]{20,})["\']',
+    # 阿里云 AccessKey ID 格式
+    r'LTAI[a-zA-Z0-9]{16,20}',
+    
+    # 智谱 AI (Zhipu / GLM)
+    r'ZHIPU_API_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'zhipu_api_key[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'GLM_API_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'glm_api_key[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'ZHIPUAI_API_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'zhipuApiKey[\s]*[:=][\s]*["\']([a-zA-Z0-9_-]{20,})["\']',
+    r'ZhipuApiKey[\s]*[:=][\s]*["\']([a-zA-Z0-9_-]{20,})["\']',
+    # 智谱 API Key 格式 (通常以数字开头)
+    r'[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\.[a-zA-Z0-9_-]+',
+    
+    # MiniMax
+    r'MINIMAX_API_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'minimax_api_key[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'MINIMAX_GROUP_ID[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{10,})["\']?',
+    r'minimax_api_key[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
+    r'minimaxApiKey[\s]*[:=][\s]*["\']([a-zA-Z0-9_-]{20,})["\']',
+    r'MinimaxApiKey[\s]*[:=][\s]*["\']([a-zA-Z0-9_-]{20,})["\']',
 ]
 
 # GitHub搜索关键词
@@ -105,6 +143,17 @@ AI_SEARCH_KEYWORDS = [
     'sk-proj-',
     'OPENAI_API_KEY',
     'chatApiKey',
+    # 中国 AI 服务
+    'deepseek api',
+    'dashscope',
+    'qwen api',
+    'zhipu api',
+    'glm api',
+    'minimax api',
+    'DEEPSEEK_API_KEY',
+    'DASHSCOPE_API_KEY',
+    'ZHIPU_API_KEY',
+    'MINIMAX_API_KEY',
 ]
 
 # 要排除的文件扩展名
