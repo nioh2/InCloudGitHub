@@ -2428,8 +2428,36 @@
       "findings_count": 0,
       "scan_type": "auto:ai-projects:no-access",
       "scan_count": 1
+    },
+    "zulfiqarlaili/borndate-api": {
+      "first_scan": "2026-04-30 05:18:42",
+      "last_scan": "2026-04-30 05:18:42",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Osilly/Vision-DeepResearch": {
+      "first_scan": "2026-04-30 05:54:23",
+      "last_scan": "2026-04-30 05:54:23",
+      "findings_count": 4,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "DrBoom-233/Price-Claw": {
+      "first_scan": "2026-04-30 05:54:23",
+      "last_scan": "2026-04-30 05:54:23",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "shabihhaider/unified-social-insights": {
+      "first_scan": "2026-04-30 05:54:23",
+      "last_scan": "2026-04-30 05:54:23",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
     }
   },
-  "total_scanned": 347,
-  "last_updated": "2026-04-29 05:44:50"
+  "total_scanned": 351,
+  "last_updated": "2026-04-30 05:54:23"
 }
