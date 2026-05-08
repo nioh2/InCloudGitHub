@@ -2652,8 +2652,36 @@
       "findings_count": 0,
       "scan_type": "auto:ai-projects:no-access",
       "scan_count": 1
+    },
+    "GabelGame/AI-TGBot": {
+      "first_scan": "2026-05-08 04:52:56",
+      "last_scan": "2026-05-08 04:52:56",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Mosqlimate-project/mosqlimate-assistant": {
+      "first_scan": "2026-05-08 04:53:41",
+      "last_scan": "2026-05-08 04:53:41",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "heyifan142857/slidebake": {
+      "first_scan": "2026-05-08 04:54:03",
+      "last_scan": "2026-05-08 04:54:03",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "mimunozc/AURA": {
+      "first_scan": "2026-05-08 05:30:05",
+      "last_scan": "2026-05-08 05:30:05",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
     }
   },
-  "total_scanned": 379,
-  "last_updated": "2026-05-06 05:40:31"
+  "total_scanned": 383,
+  "last_updated": "2026-05-08 05:30:05"
 }
