@@ -2680,8 +2680,43 @@
       "findings_count": 0,
       "scan_type": "auto:ai-projects",
       "scan_count": 1
+    },
+    "shoutoutuoadi325/mlsys-project": {
+      "first_scan": "2026-05-09 05:21:26",
+      "last_scan": "2026-05-09 05:21:26",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "tensology/decisionsai": {
+      "first_scan": "2026-05-09 05:29:51",
+      "last_scan": "2026-05-09 05:29:51",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Supervertaler/Supervertaler-Workbench": {
+      "first_scan": "2026-05-09 05:29:51",
+      "last_scan": "2026-05-09 05:29:51",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "CloudBridgeTechnologies/cloudable.ai": {
+      "first_scan": "2026-05-09 05:29:52",
+      "last_scan": "2026-05-09 05:29:52",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "ProjectVaquitai/Vaquitai": {
+      "first_scan": "2026-05-09 05:29:52",
+      "last_scan": "2026-05-09 05:29:52",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
     }
   },
-  "total_scanned": 383,
-  "last_updated": "2026-05-08 05:30:05"
+  "total_scanned": 388,
+  "last_updated": "2026-05-09 05:29:52"
 }
