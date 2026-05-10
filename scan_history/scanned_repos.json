@@ -2715,8 +2715,22 @@
       "findings_count": 0,
       "scan_type": "auto:ai-projects:no-access",
       "scan_count": 1
+    },
+    "Hill-1024/Lawyance": {
+      "first_scan": "2026-05-10 05:44:55",
+      "last_scan": "2026-05-10 05:44:55",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "MKcodeshere/Text-to-SQL---Using-SDE-SQL-Method": {
+      "first_scan": "2026-05-10 05:46:31",
+      "last_scan": "2026-05-10 05:46:31",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
     }
   },
-  "total_scanned": 388,
-  "last_updated": "2026-05-09 05:29:52"
+  "total_scanned": 390,
+  "last_updated": "2026-05-10 05:46:31"
 }
