@@ -3254,8 +3254,15 @@
       "findings_count": 0,
       "scan_type": "auto:ai-projects",
       "scan_count": 1
+    },
+    "JavaBigData-cjc/BigData_Design": {
+      "first_scan": "2026-05-16 05:16:36",
+      "last_scan": "2026-05-16 05:16:36",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
     }
   },
-  "total_scanned": 465,
-  "last_updated": "2026-05-15 05:45:13"
+  "total_scanned": 466,
+  "last_updated": "2026-05-16 05:16:36"
 }
