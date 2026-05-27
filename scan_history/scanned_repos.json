@@ -3779,8 +3779,15 @@
       "findings_count": 3,
       "scan_type": "auto:ai-projects",
       "scan_count": 1
+    },
+    "tulerfeng/Gen-Searcher": {
+      "first_scan": "2026-05-27 06:37:47",
+      "last_scan": "2026-05-27 06:37:47",
+      "findings_count": 4,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
     }
   },
-  "total_scanned": 540,
-  "last_updated": "2026-05-26 06:24:01"
+  "total_scanned": 541,
+  "last_updated": "2026-05-27 06:37:47"
 }
