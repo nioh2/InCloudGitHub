@@ -3807,8 +3807,22 @@
       "findings_count": 0,
       "scan_type": "auto:ai-projects",
       "scan_count": 1
+    },
+    "JacobGoldenArt/feb_em": {
+      "first_scan": "2026-06-03 06:51:31",
+      "last_scan": "2026-06-03 06:51:31",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "TheSatyam-Singh/-LLaVA-Large-Language-Virtual-Assistant": {
+      "first_scan": "2026-06-03 06:51:41",
+      "last_scan": "2026-06-03 06:51:41",
+      "findings_count": 1,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
     }
   },
-  "total_scanned": 544,
-  "last_updated": "2026-05-30 05:39:51"
+  "total_scanned": 546,
+  "last_updated": "2026-06-03 06:51:41"
 }
