@@ -3863,8 +3863,92 @@
       "findings_count": 0,
       "scan_type": "auto:ai-projects:no-access",
       "scan_count": 1
+    },
+    "Aitherium/aither-adk": {
+      "first_scan": "2026-06-09 06:16:25",
+      "last_scan": "2026-06-09 06:16:25",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "shruthisenthil2000/multi-agent-japan": {
+      "first_scan": "2026-06-09 06:17:42",
+      "last_scan": "2026-06-09 06:17:42",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "qmyhd/LLM-portfolio-project": {
+      "first_scan": "2026-06-09 06:19:28",
+      "last_scan": "2026-06-09 06:19:28",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "shivam060404/openenv-trust-safety-audit": {
+      "first_scan": "2026-06-09 06:19:28",
+      "last_scan": "2026-06-09 06:19:28",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "YongyanLiututu/RAGWord-": {
+      "first_scan": "2026-06-09 06:19:29",
+      "last_scan": "2026-06-09 06:19:29",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "Todd7777/Glaucoma_OneShot": {
+      "first_scan": "2026-06-09 06:19:29",
+      "last_scan": "2026-06-09 06:19:29",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "NexusMetriks/nexus": {
+      "first_scan": "2026-06-09 06:19:29",
+      "last_scan": "2026-06-09 06:19:29",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "daved01/ragcore": {
+      "first_scan": "2026-06-09 06:19:29",
+      "last_scan": "2026-06-09 06:19:29",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "OpenCSGs/csghub-dataflow": {
+      "first_scan": "2026-06-09 06:19:30",
+      "last_scan": "2026-06-09 06:19:30",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "heyfinal/ispy": {
+      "first_scan": "2026-06-09 06:19:30",
+      "last_scan": "2026-06-09 06:19:30",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "aimathstats/simple_gpt_0": {
+      "first_scan": "2026-06-09 06:19:30",
+      "last_scan": "2026-06-09 06:19:30",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "isaaccasm/rag-google-doc": {
+      "first_scan": "2026-06-09 06:19:30",
+      "last_scan": "2026-06-09 06:19:30",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
     }
   },
-  "total_scanned": 552,
-  "last_updated": "2026-06-04 06:51:25"
+  "total_scanned": 564,
+  "last_updated": "2026-06-09 06:19:30"
 }
