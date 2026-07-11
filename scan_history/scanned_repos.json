@@ -5991,8 +5991,57 @@
       "findings_count": 0,
       "scan_type": "auto:ai-projects",
       "scan_count": 1
+    },
+    "noahoja-commits/agent-hub": {
+      "first_scan": "2026-07-11 04:50:17",
+      "last_scan": "2026-07-11 04:50:17",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "reorx/awesome-chatgpt-api": {
+      "first_scan": "2026-07-11 04:54:06",
+      "last_scan": "2026-07-11 04:54:06",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:failed",
+      "scan_count": 1
+    },
+    "sidhurt/aqueitas": {
+      "first_scan": "2026-07-11 04:55:44",
+      "last_scan": "2026-07-11 04:55:44",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "rahulkadvasara/BeeAI": {
+      "first_scan": "2026-07-11 04:56:26",
+      "last_scan": "2026-07-11 04:56:26",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "ansh-333k/hn": {
+      "first_scan": "2026-07-11 04:56:31",
+      "last_scan": "2026-07-11 04:56:31",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "prashantjain25/wasp": {
+      "first_scan": "2026-07-11 04:56:47",
+      "last_scan": "2026-07-11 04:56:47",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Hanchenli/vllm-continuum": {
+      "first_scan": "2026-07-11 05:42:44",
+      "last_scan": "2026-07-11 05:42:44",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
     }
   },
-  "total_scanned": 856,
-  "last_updated": "2026-07-10 06:08:36"
+  "total_scanned": 863,
+  "last_updated": "2026-07-11 05:42:44"
 }
